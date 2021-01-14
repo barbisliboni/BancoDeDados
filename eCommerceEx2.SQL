@@ -2,13 +2,13 @@ create database db_ecommerce;
 use db_ecommerce;
 
 create table tb_produtos(
-id bigint(5) auto_increment,
-tipo_produto varchar(50) not null,
-nome_produto varchar(80) not null,
-marca_produto varchar(20) not null,
-unid_medida_produto char(2) not null,
-valor_produto float not null,
-primary key(id)
+	id bigint(5) auto_increment,
+	tipo_produto varchar(50) not null,
+	nome_produto varchar(80) not null,
+	marca_produto varchar(20) not null,
+	unid_medida_produto char(2) not null,
+	valor_produto float not null,
+	primary key(id)
 )
 
 insert into tb_produtos (tipo_produto, nome_produto,marca_produto,unid_medida_produto,valor_produto) 
